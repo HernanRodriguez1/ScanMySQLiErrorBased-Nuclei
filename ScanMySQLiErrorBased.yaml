@@ -23,7 +23,9 @@ requests:
       - "{{BaseURL}}-x()"
       - "{{BaseURL}}[1]"
       - "{{BaseURL}}/!1111'/"
-  
+      - "{{BaseURL}}+"
+      - "{{BaseURL}} 1 or 1"
+
 
     extractors:
       - type: regex
